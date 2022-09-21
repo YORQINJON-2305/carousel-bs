@@ -1,0 +1,33 @@
+.about-row{
+    margin-bottom: 50px;
+    padding-top: 50px;
+    border-top: 1.5px solid rgba(180, 180, 180, 0.6);
+}
+
+.about-row-end{
+    padding-bottom: 50px;
+    border-bottom: 1.5px solid rgba(180, 180, 180, 0.6);
+}
+
+.about-text-wrap{
+    width: 100%;
+    max-width: 500px;
+}
+
+@include mobile-first(640px){
+    .about-title{
+        font-size: 40px;
+    }
+}
+
+@include mobile-first(768px){
+    .about-text-wrap{
+        max-width: 100%;
+    }
+}
+
+@include mobile-first(992px){
+    .about-title{
+        font-size: 50px;
+    }
+}

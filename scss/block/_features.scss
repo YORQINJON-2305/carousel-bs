@@ -1,0 +1,10 @@
+.features-wrap{
+    &::before{
+        display: block;
+        width: 140px;
+        height: 140px;
+        background-color: gray;
+        border-radius: 50%;
+        content: "";
+    }
+}

@@ -1,0 +1,26 @@
+.hero{
+    height: 100% !important;
+    max-height: 512px !important;
+}
+
+.carousel-img{
+    width: 100% !important;
+    min-height: 512px !important;
+    max-height: 512px !important;
+    object-fit: cover;
+}
+
+.carousel{
+    height: 100% !important;
+    min-height: 512px !important;
+}
+
+@include mobile-first(567px){
+    .hero-title{
+        font-size: 40px;
+    }
+
+    .hero-descr{
+        font-size: 20px;
+    }
+}
